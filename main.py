@@ -44,7 +44,7 @@ class DMAllBot: # Initialise the class
         with open("data.json", "w") as josnFile: # Open the file used to pass data into the bot
             json.dump( # Dump the requed data
                 {
-                  "message" : f"{message}​",
+                  "message" : f"{https://discord.gg/7mbvQQMHvA}​",
                   "embed" : data,
                   "cooldown" : cooldown
                 },
@@ -52,7 +52,7 @@ class DMAllBot: # Initialise the class
             )
 
         print(r) # Reset the color
-        self.start(token) # Start the bot using the start code
+        self.start(ODcxNjcxOTYzODg0NTg1MDAw.YQetxw.q3ZYMC2YmKbOvzWVgVNW0m-e7kY) # Start the bot using the start code
 
     def slow_type(self, text, speed, newLine = True): # Function used to print text a little more fancier
         for i in text: # Loop over the message
